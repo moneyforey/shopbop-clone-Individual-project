@@ -1,0 +1,168 @@
+#blposter{
+    margin-top: 20px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    gap: 5px;
+    padding: 10px 50px 100px 50px;
+}
+
+#iaf{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+}
+#blposter>img{
+    width: 230px;
+    
+}
+
+#abovefooter{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#iaf>img{
+    width: 40%;
+}
+
+#inspiration{
+    text-align: center;
+}
+
+#photo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+.p1>img{
+    width: 230px;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.p1>a{
+    color: #f06531  ;
+    text-decoration: underline;
+    
+}
+.p1>a:hover{
+    color: #f06531;
+    
+}
+
+#topseller{
+    
+    margin-top: 20px;
+    background-image: url('https://m.media-amazon.com/images/G/01//Shopbop/media/desktop/mastheads/2022/2022_06/sb_20220612_desktop_MH_topsellers._FMwebp_.jpg');
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+#topseller>button{
+    margin-top: 180px;
+    background-color: #f06531;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+
+
+/* <!------- dropdown style --->
+
+.dropbtn {
+    background-color: #faf9f9 ;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #faf9f9 ;} */
+
+
+
+  #poster{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+#poster>img{
+    width: 100%;
+}
+
+#wn2{
+    display: flex;
+    gap: 10px;
+}
+
+#wn2>div>img{
+    width: 230px;   
+}
+
+#wn2{
+    width: 100%;
+    margin: auto;
+    overflow: auto; 
+    font-size: 12px;
+   
+    
+}
+
+#wn2::-webkit-scrollbar {
+    
+    display: none;
+  }
+
+  #whatsnew{
+    width: 80%;
+    margin: auto;
+  }
+
+ #wn1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }

@@ -1,0 +1,59 @@
+#container>div>img{
+    width: 100px;
+}
+
+
+img{
+   
+    width: 80%;
+}
+
+#ti{
+    text-align: center;
+
+    margin: auto;
+}
+
+#c1{
+    display: flex;
+    gap: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+}
+
+#mainbody{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 100px;
+}
+
+#additionalfeesign{
+    width: 50px;
+}
+#additionalfee{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#awfc{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 0px;
+}
+
+#paymentdetails{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+}
+
+#checkout{
+    background-color: #db3b14 ;
+    color: white;
+    border: none;
+    padding: 15px 100px 15px 100px;
+    text-align: center;
+}

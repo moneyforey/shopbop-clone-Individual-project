@@ -1,0 +1,35 @@
+#shippingadd{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#mainbody{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+#method{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+#finalpay{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    text-align: center;   
+}
+#Pay{
+     background-color: #db3b14 ;
+     color: white;
+     border: none;
+     padding: 15px 100px 15px 100px;
+}
+
+#save{
+    background-color: #db3b14 ;
+    color: white;
+    border: none;
+    padding: 15px 100px 15px 100px;
+}

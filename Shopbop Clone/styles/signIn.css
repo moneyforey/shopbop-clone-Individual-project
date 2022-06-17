@@ -1,0 +1,26 @@
+#mainbody{
+    display: flex;
+    flex-direction: column;
+
+    width: 40%;
+    margin: auto;
+}
+#submit{
+    background-color: #ee4a1b;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+#mainbody>img{
+    width: 50%;
+}
+#createnewaccount{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+span{
+    color: #ee4a1b;
+    margin-left: 150px;
+}

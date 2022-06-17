@@ -1,0 +1,106 @@
+#options{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px;
+}
+#navbar{
+    text-align: center;
+    font-family: GT-America-Standard, "Helvetica Neue", Helvetica, sans-serif;
+}
+#options>a{
+    text-decoration: none;
+    color: #646464;
+    font-size: 14px;
+    font-family: GT-America-Standard, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 26px;
+    
+}
+#options>a:hover{
+    color: black;
+    font-weight: 600;
+    text-decoration: underline red 2px solid;
+}
+#options>a>img{
+    width: 20px;
+}
+#navbar>a>img{
+    width: 150px;
+}
+#belowoptions{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    background-color: #ffaf87 ;
+}
+#belowoptions>a{
+    /* text-decoration: none; */
+    color: black;
+}
+
+#aboveheadimg{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: #faf9f9 ;
+    margin-bottom: 10px;
+}
+#midtop>a{
+    color: #646464;
+    text-decoration: none;
+}
+
+
+
+/* <!------- dropdown style ---> */
+
+.dropbtn {
+    background-color: #faf9f9 ;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #faf9f9 ;}
+
+ 
+.a1{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
